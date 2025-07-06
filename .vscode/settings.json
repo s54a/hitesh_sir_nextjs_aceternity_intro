@@ -1,0 +1,25 @@
+{
+  "workbench.colorCustomizations": {
+    "[Default Light+]": {
+      "editor.background": "#cfcfcf",
+      "editor.foreground": "#222222",
+      "editor.selectionBackground": "#ffffff",
+      "editor.lineHighlightBackground": "#f0f0f0"
+    },
+    "[Visual Studio Light]": {
+      "editor.background": "#cfcfcf",
+      "editor.foreground": "#222222",
+      "editor.selectionBackground": "#ffffff",
+      "editor.lineHighlightBackground": "#f0f0f0"
+    },
+    "[React Dev Theme (light)]": {
+      "editor.background": "#d0d0d0",
+      "editor.foreground": "#222222",
+      "editor.selectionBackground": "#FFFF00",
+      "editor.lineHighlightBackground": "#f0f0f0"
+    },
+    "activityBar.background": "#132C5B",
+    "titleBar.activeBackground": "#1B3D7F",
+    "titleBar.activeForeground": "#FAFBFE"
+  }
+}
