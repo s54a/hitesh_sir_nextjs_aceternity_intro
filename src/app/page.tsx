@@ -1,9 +1,10 @@
 import HeroSection from "@/components/HeroSection";
+import { HomeGridBackground as GridBackground } from "@/components/GridBackground";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import MusicSchoolTestimonials from "@/components/MusicSchoolTestimonials";
-import { HomeGridBackground as GridBackground } from "@/components/GridBackground";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
+import Instructors from "@/components/Instructors";
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
       <WhyChooseUs />
       <MusicSchoolTestimonials />
       <UpcomingWebinars />
+      <Instructors />
     </main>
   );
 };
