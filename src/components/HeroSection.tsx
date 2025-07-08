@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="mx-auto flex h-auto w-full flex-col items-center justify-center rounded-md py-10 md:h-[40rem] md:py-0">
       <Spotlight
-        className="-top-40 left-0 md:-top-20 md:left-60 lg:left-80"
+        className="-top-40 left-0 md:-top-10 md:left-60 lg:left-70"
         fill="white"
       />
 

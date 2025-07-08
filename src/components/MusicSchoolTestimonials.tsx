@@ -1,6 +1,7 @@
 "use client";
 
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import GridBackground from "./GridBackground";
 
 const musicSchoolTestimonials = [
   {
@@ -37,20 +38,23 @@ const musicSchoolTestimonials = [
 
 const MusicSchoolTestimonials = () => {
   return (
-    <div className="dark:bg-grid-white/[0.2] relative flex h-[40rem] w-full flex-col items-center justify-center overflow-hidden dark:bg-black">
-      <h2 className="z-10 mb-8 text-center text-3xl font-bold">
-        Hear Our Harmony: Voices of Success
-      </h2>
-
-      <div className="flex w-full justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
-        <div className="w-full max-w-6xl">
-          <InfiniteMovingCards
-            items={musicSchoolTestimonials}
-            direction="right"
-            speed="slow"
-          />
+    <div className="relative flex h-[40rem] w-full flex-col items-center justify-center overflow-hidden">
+      <GridBackground>
+        <div className="flex flex-col">
+          <h2 className="z-10 mb-8 text-center text-3xl font-bold">
+            Hear Our Harmony: Voices of Success
+          </h2>
+          <div className="flex w-full justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
+            <div className="w-full max-w-6xl">
+              <InfiniteMovingCards
+                items={musicSchoolTestimonials}
+                direction="right"
+                speed="slow"
+              />
+            </div>
+          </div>
         </div>
-      </div>
+      </GridBackground>
     </div>
   );
 };
