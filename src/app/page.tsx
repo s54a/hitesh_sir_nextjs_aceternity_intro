@@ -5,6 +5,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import MusicSchoolTestimonials from "@/components/MusicSchoolTestimonials";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import Instructors from "@/components/Instructors";
+import Footer from "@/components/Footer";
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <MusicSchoolTestimonials />
       <UpcomingWebinars />
       <Instructors />
+      <Footer />
     </main>
   );
 };

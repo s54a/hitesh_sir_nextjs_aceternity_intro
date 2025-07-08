@@ -46,7 +46,7 @@ const Instructors = () => {
           journey
         </p>
 
-        <div className="mt-20 mb-10 flex w-full items-center justify-center">
+        <div className="mb-10 flex w-full items-center justify-center">
           <AnimatedTooltip items={instructors} />
         </div>
       </WavyBackground>

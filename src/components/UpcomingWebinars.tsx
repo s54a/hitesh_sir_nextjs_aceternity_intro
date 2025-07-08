@@ -76,7 +76,7 @@ const UpcomingWebinars = () => {
             className="rounded border border-neutral-600 bg-white px-4 py-2 text-neutral-700 transition duration-200 hover:bg-gray-100"
             href={"/courses"}
           >
-            View All Courses
+            View All Webinars
           </Link>
         </div>
       </div>
