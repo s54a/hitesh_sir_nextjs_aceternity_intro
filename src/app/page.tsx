@@ -3,6 +3,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import MusicSchoolTestimonials from "@/components/MusicSchoolTestimonials";
 import { HomeGridBackground as GridBackground } from "@/components/GridBackground";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <FeaturedCourses />
       <WhyChooseUs />
       <MusicSchoolTestimonials />
+      <UpcomingWebinars />
     </main>
   );
 };
