@@ -1,5 +1,6 @@
 "use client";
 import { motion, Transition } from "motion/react";
+import Link from "next/link";
 
 const transition: Transition = {
   type: "spring",
@@ -108,11 +109,11 @@ export const ProductItem = ({
 
 export const HoveredLink = ({ children, ...rest }: any) => {
   return (
-    <a
+    <Link
       {...rest}
-      className="text-neutral-700 hover:text-black dark:text-neutral-200"
+      className="text-neutral-700 hover:text-black dark:text-neutral-200 dark:hover:text-neutral-300"
     >
       {children}
-    </a>
+    </Link>
   );
 };

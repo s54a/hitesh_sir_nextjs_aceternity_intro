@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="mb-4 text-lg font-semibold text-white">Follow Us</h2>
-          <div className="flex space-x-4">
+          <div className="flex flex-col space-y-1">
             <a
               href="#"
               className="transition-colors duration-300 hover:text-white"
